@@ -215,6 +215,7 @@ nav{
   .closeMenu{
     display: block;
     margin-bottom: 50px;
+    margin-right: 20px;
   }
 
   .mobileVersion{
@@ -222,7 +223,7 @@ nav{
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    align-items: center;
+    align-items: flex-end;
     justify-items: center;
     display: none;
   }
@@ -230,6 +231,9 @@ nav{
   .navList{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
   }
 
   .container{
